@@ -1,0 +1,28 @@
+body {
+    color: #000;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+ol li {
+    display: inline;
+    background-color: #eee;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+ol li:hover {
+    background-color: #999;
+}
+
+.aside-content {
+    color: #999;
+}
+
+@media only screen and (min-width: 600px) {
+    .aside-content {
+        color: #000;
+    }
+}
